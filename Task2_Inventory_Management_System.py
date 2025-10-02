@@ -93,7 +93,6 @@ def alert_low_stock():
     else:
         messagebox.showinfo("Stock Status", "All good!")
 
-# Main window code at top-level
 main_window = tk.Tk()
 main_window.title("Login - Inventory Management System")
 main_window.geometry("320x180")
@@ -105,3 +104,4 @@ main_window.mainloop()
         
 
                     
+
